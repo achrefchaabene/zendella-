@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENDALA Dream - Officiel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+            background-color: #1a2226;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 50px 20px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 480px;
+            background: linear-gradient(145deg, #202b30, #171f22);
+            border: 1px solid rgba(74, 206, 222, 0.25);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(74, 206, 222, 0.05);
+        }
+
+        .logo-container {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 25px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #4acede;
+            box-shadow: 0 0 25px rgba(74, 206, 222, 0.3);
+            background-color: #202b30;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #4acede;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #a3b8c2;
+            margin-bottom: 35px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 14px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .btn-insta {
+            background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
+        }
+
+        .btn-fb {
+            background-color: #1877f2;
+        }
+
+        .btn-tiktok {
+            background-color: #000000;
+            border: 1px solid rgba(74, 206, 222, 0.4);
+        }
+
+        .btn-tiktok:hover {
+            border-color: #4acede;
+        }
+
+        .btn-wa {
+            background-color: #25d366;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 12px;
+            color: #5d737e;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo-container">
+            <img src="assets/logo-zendala-dream.jpeg" alt="ZENDALA Dream Logo">
+        </div>
+
+        <h1>ZENDALA Dream</h1>
+        <div class="tagline">Bienvenue dans notre univers</div>
+
+        <div class="links-wrapper">
+            <a href="https://www.instagram.com/ste_zendala_dream?igsh=enB2aTVsZDBzNTlx" class="btn btn-insta" target="_blank" rel="noopener noreferrer">Instagram Officiel</a>
+            <a href="https://www.facebook.com/share/1Cs7sJt7Jr/?mibextid=wwXIfr" class="btn btn-fb" target="_blank" rel="noopener noreferrer">Page Facebook</a>
+            <a href="https://www.tiktok.com/@zendala.dream" class="btn btn-tiktok" target="_blank" rel="noopener noreferrer">TikTok Vidéos</a>
+            <a href="https://wa.me/21625229552" class="btn btn-wa" target="_blank" rel="noopener noreferrer">Contact WhatsApp</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 ZENDALA Dream. Tous droits réservés.
+        </div>
+    </div>
+</body>
+</html>
